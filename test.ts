@@ -1,4 +1,4 @@
-import { DBDTeamClient, Endpoint, EndpointType } from "./src";
+import { DBDTeamClient, Endpoint, EndpointType } from "./dist";
 
 const api_key =
   "...";
@@ -34,3 +34,4 @@ void (async function Main() {
 //   .get("joke")
 //   .then((data) => console.log("Joke: ", data.joke))
 //   .catch(console.error);
+

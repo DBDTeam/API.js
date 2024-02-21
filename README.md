@@ -9,19 +9,16 @@ A robust wrapper designed to seamlessly interact with the [DBDTeam API](https://
 ## Installation
 
 npm
-
 ```bash
 npm install @DBDTeam/API
 ```
 
 pnpm
-
 ```bash
 pnpm install @DBDTeam/API
 ```
 
 yarn
-
 ```bash
 yarn add @DBDTeam/API
 ```

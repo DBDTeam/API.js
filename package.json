@@ -1,5 +1,5 @@
 {
-	"name": "dbd-team",
+	"name": "dbd-api",
 	"version": "1.0.0",
 	"description": "..",
 	"main": "./src/index.ts",
@@ -20,5 +20,9 @@
 		"add": "^2.0.6",
 		"axios": "^1.6.7",
 		"tsconfig-paths": "^4.2.0"
-	}
+	},
+	"files": [
+		"dist",
+		"src/**/*.d.ts"
+	 ]
 }
