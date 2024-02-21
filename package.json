@@ -5,8 +5,7 @@
 	"main": "./src/index.ts",
 	"types": "types.d.ts",
 	"scripts": {
-		"test": "ts-node ./test.ts",
-		"start": "npm run build && npm run test",
+		"start": "npm i && npm run build && npm run test",
 		"prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
 		"build": "tsc"
 	},
