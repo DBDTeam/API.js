@@ -1,27 +1,27 @@
 {
-	"name": "@DBDTeam/API.js",
-	"version": "1.0.0",
-	"description": "..",
-	"main": "./src/index.ts",
-	"types": "types.d.ts",
-	"scripts": {
-		"start": "npm i && npm run build && npm run test",
-		"prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
-		"build": "tsc"
-	},
-	"author": "Chewawi",
-	"license": "ISC",
-	"devDependencies": {
-		"@types/node": "^20.11.19",
-		"tslib": "^2.6.2"
-	},
-	"dependencies": {
-		"add": "^2.0.6",
-		"axios": "^1.6.7",
-		"tsconfig-paths": "^4.2.0"
-	},
-	"files": [
-		"dist",
-		"src/**/*.d.ts"
-	 ]
+  "name": "@dbdteam/api.js",
+  "version": "0.0.1",
+  "description": "A robust wrapper designed to seamlessly interact with the DBDTeam API, offering enhanced functionality and comprehensive type support for a smoother development experience.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "npm i && npm run build && npm run test",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "build": "tsc"
+  },
+  "author": "Chewawi",
+  "license": "MIT",
+  "keywords": [
+    "api",
+    "wrapper",
+    "dbd",
+    "dbdteam",
+    "canvas"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "tslib": "^2.6.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
 }

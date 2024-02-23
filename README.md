@@ -1,32 +1,32 @@
 # DBDTeam API Wrapper
 
-[![npm version](https://img.shields.io/npm/v/@DBDTeam/API.svg)](https://www.npmjs.com/package/@DBDTeam/API)
-[![npm downloads](https://img.shields.io/npm/dm/@DBDTeam/API.svg)](https://www.npmjs.com/package/@DBDTeam/API)
-[![license](https://img.shields.io/npm/l/@DBDTeam/API.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/@dbdteam/api.js.svg)](https://www.npmjs.com/package/@dbdteam/api.js)
+[![npm downloads](https://img.shields.io/npm/dm/@dbdteam/api.js.svg)](https://www.npmjs.com/package/@dbdteam/api.js)
+[![license](https://img.shields.io/npm/l/@dbdteam/api.js.svg)](https://opensource.org/licenses/MIT)
 
 A robust wrapper designed to seamlessly interact with the [DBDTeam API](https://www.dbdteam.xyz/api), offering enhanced functionality and comprehensive type support for a smoother development experience.
 
 ## Installation
 
-npm
+`npm`
 ```bash
-npm install @DBDTeam/API
+npm install @dbdteam/api.js
 ```
 
-pnpm
+`pnpm`
 ```bash
-pnpm install @DBDTeam/API
+pnpm install @dbdteam/api.js
 ```
 
-yarn
+`yarn`
 ```bash
-yarn add @DBDTeam/API
+yarn add @dbdteam/api.js
 ```
 
 ## Usage
 
 ```javascript
-import { DBDTeamClient, Endpoint, EndpointType } from "@DBDTeam/API";
+import { DBDTeamClient, Endpoint, EndpointType } from "@dbdteam/api.js";
 
 const api_key = "your_api_key_here";
 
