@@ -1,11 +1,10 @@
 {
   "name": "@dbdteam/api.js",
-  "version": "0.0.1",
+  "type": "module",
+  "version": "1.0.0",
   "description": "A robust wrapper designed to seamlessly interact with the DBDTeam API, offering enhanced functionality and comprehensive type support for a smoother development experience.",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "npm i && npm run build && npm run test",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "build": "tsc"
   },
   "author": "Chewawi",
@@ -23,5 +22,6 @@
   },
   "dependencies": {
     "axios": "^1.6.7"
-  }
+  },
+  "files": ["dist", "LICENSE", "README.md", "package.json"]
 }
