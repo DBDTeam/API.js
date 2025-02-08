@@ -5,7 +5,7 @@ import EventEmitter from "node:events";
  * The base URL for the API.
  * @type {string}
  */
-export const BASE_URL = "https://api.dbdteam.xyz/" as const;
+export const BASE_URL = "https://api.idcteam.xyz/" as const;
 
 /**
  * Enum for language options.
