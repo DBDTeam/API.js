@@ -1,10 +1,10 @@
-# DBDTeam API Wrapper
+# I.D.C.Team API Wrapper
 
 [![npm version](https://img.shields.io/npm/v/@dbdteam/api.js.svg)](https://www.npmjs.com/package/@dbdteam/api.js)
 [![npm downloads](https://img.shields.io/npm/dm/@dbdteam/api.js.svg)](https://www.npmjs.com/package/@dbdteam/api.js)
 [![license](https://img.shields.io/npm/l/@dbdteam/api.js.svg)](https://opensource.org/licenses/MIT)
 
-A robust wrapper designed to seamlessly interact with the [IDCTeam API](https://api.idcteam.xyz/), offering enhanced functionality and comprehensive type support for a smoother development experience.
+A robust wrapper designed to seamlessly interact with the [I.D.C.Team API](https://api.idcteam.xyz/), offering enhanced functionality and comprehensive type support for a smoother development experience.
 
 ## Installation
 
